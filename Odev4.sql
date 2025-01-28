@@ -10,4 +10,4 @@ SELECT COUNT(*) FROM country
 WHERE (country LIKE '_____'); --> CEVAP: 13.
 --city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter? 
 SELECT city FROM city
-WHERE (city ILIKE '%r') OR (city ILIKE '%r)'); --> CEVAP 33 eğer parantezle kapatılmış veriler de göz ardı ediliyorsa CEVAP: 35.
+WHERE (city ILIKE '%r') OR (city ILIKE '%r)'); --> CEVAP 33 eğer parantezle kapatılmış veriler de göz ardı edilmiyorsa CEVAP: 35.
